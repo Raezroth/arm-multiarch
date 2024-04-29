@@ -1,4 +1,5 @@
-# Maintainer: Danct12 <danct12@disroot.org>
+# Maintainer: Raezroth
+# Contributor: Danct12 <danct12@disroot.org>
 # Contributor: Anatol Pomozov <anatol.pomozov@gmail.com>
 
 _target=arm-linux-gnueabihf
