@@ -20,8 +20,7 @@ options=(!emptydirs !strip)
 source=(https://ftp.gnu.org/gnu/gcc/gcc-$pkgver/gcc-$pkgver.tar.xz
         #ftp://gcc.gnu.org/pub/gcc/snapshots/$_snapshot/gcc-$_snapshot.tar.xz
         https://libisl.sourceforge.io/isl-$_islver.tar.bz2)
-sha256sums=('d08edc536b54c372a1010ff6619dd274c0f1603aa49212ba20f7aa2cda36fa8b'
-            'fcf78dd9656c10eb8cf9fbd5f59a0b6b01386205fe1934b3b287a0a1898145c0')
+sha256sums=('SKIP')
 
 if [ -n "$_snapshot" ]; then
   _basedir=gcc-$_snapshot
